@@ -1,0 +1,319 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:pink;
+    width: 960px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.encabezado{
+    background-color: peachpuff;
+    background-image: url(./img/aychihuahualogo2.JPG);
+    background-size: auto;
+    padding: 20px;
+    height: 75vh;
+}
+.encabezado_menu{
+    text-align: center;
+    list-style: none;
+}
+.encabezado_menu li{
+    display: inline-block;
+    font-weight: 600;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.encabezado_menu a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.contenedor_flex{
+    display: flex;
+}
+.contenido{
+    background-color: palevioletred;
+    width: 60%;
+    padding: 4rem;
+}
+.contenido a{
+    text-decoration: none;
+    color: black;
+}
+.contenido_imagen{
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contenido_imagen img{
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.578);
+}   
+.contenido_imagen p{
+    padding-top: 1rem;
+    padding-left: 0,5rem;
+    padding-bottom: 1rem;
+}
+.contenido_imagen_golpecalor img{
+    height: 400px;
+    width: 500px;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+.texto_golpecalor{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: justify;
+}
+.contenido_imagen_tallesgeneral img{
+    height: 350px;
+    width: 400px;
+}
+.contenido_imagen_tallesmedias img{
+    height: 350px;
+    width: 400px;
+}
+.texto_tallesgenerales{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.texto_tallesmedias{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.contenido_imagen_perrobañandose img{
+    height: 300px;
+    width: 500px;
+}
+.texto_frutas{
+    text-align: justify;
+}
+.contacto_telefonos{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.contacto_horarios{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.formulario_consultas{
+    padding-top: 1rem;
+}
+.texto_nosotros{
+    padding-top: 1rem;
+    text-align: justify;
+    font-size: medium;
+}
+.contenido_sugerencias{
+    background: linear-gradient(#ea8e8e, #a03737);
+    width: 40%;
+    padding: 4rem;
+    /*height: 215vh;*/
+}
+.contenido_sugerencias li{
+    list-style: circle;
+}
+.listado_aside_div1{
+    font-size: large;
+    padding-top: 1rem;
+}
+.listado_aside_div1 a{
+    text-decoration: none;
+    color: black;
+}
+.texto{
+    background-color: aquamarine;
+    font-size: 0,5rem;
+    padding: 1rem;
+}
+.footer{
+    background-color: plum;
+    color: black;
+    font-size: smaller;
+}
+/*mobile*/
+@media(min-width:576px){
+    body{
+        font-family: 'Montserrat', sans-serif;
+        background-color:pink;
+        width: 576px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .encabezado{
+        background-color: peachpuff;
+        background-image: url(./img/aychihuahualogo6.JPG);
+        background-size: auto;
+        background-size:cover;
+        padding: 10px;
+        height: 85vh;
+    }
+    .encabezado_menu{
+        text-align: center;
+        list-style: none;
+    }
+    .encabezado_menu li{
+        display: inline-block;
+        font-weight: 400;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .listado_aside_div1{
+        font-size: medium;
+        padding-top: 1rem;
+    }
+    .texto{
+        background-color: aquamarine;
+        font-size: small;
+        text-align: justify;
+        padding: 1rem;
+    }
+    .contenido_imagen_tallesgeneral img{
+        height: 180px;
+        width: 230px;
+    }
+    .contenido_imagen_tallesmedias img{
+        height: 180px;
+        width: 230px;
+    }  
+    .contenido_imagen_perrobañandose img{
+        height: 180px;
+        width: 250px;
+    }
+    .contenido_imagen_golpecalor img{
+        height: 200px;
+        width: 280px;
+        padding-right: 0,5rem;
+        padding-top: 0,5rem;
+    }
+    .texto_golpecalor{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        text-align: justify;
+        font-size: medium;
+    }
+    .contenido_imagen_comerfrutas img{
+        height: 250px;
+        width: 250px;
+    }
+    .texto_nosotros{
+        font-size: smaller;
+        text-align: center;
+    }
+    .contenido_sugerencias{
+        background: linear-gradient(#ea8e8e, #a03737);
+        width: 40%;
+        padding: 4rem;
+        /*height: 230vh;*/
+    }
+    .contenido_links{
+        padding-top: 1rem;
+    }
+    .contenido_sugerencias p{
+        font-size: large;
+    }
+    .titulo_nosotros{
+        font-size: large;
+    }
+    .titulo_verano{
+        font-size: large;
+    }
+    .titulo_invierno{
+        font-size: large; 
+    }
+    .titulo_fiestas{
+        font-size: large;
+    }
+}
+/*tablet*/
+@media(min-width:768px){
+    body{
+        font-family: 'Montserrat', sans-serif;
+        background-color:pink;
+        width: 768px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .encabezado{
+        background-color: peachpuff;
+        background-image: url(./img/aychihuahualogo2.JPG);
+        background-size: auto;
+        background-size:cover;
+        padding: 20px;
+        height: 85vh;
+    }
+    .encabezado_menu{
+        text-align: center;
+        list-style: none;
+    }
+    .encabezado_menu li{
+        display: inline-block;
+        font-weight: 600;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .texto_nosotros{
+        font-size: smaller;
+        text-align: justify;
+    }
+    .contenido_imagen_perrobañandose img{
+        height: 230px;
+        width: 330px;
+    }
+    .contenido_imagen_golpecalor img{
+        height: 280px;
+        width: 350px;
+        padding-right: 0,5rem;
+        padding-top: 0,5rem;
+    }
+    .contenido_imagen_comerfrutas img{
+        height: 280px;
+        width: 300px;
+    }
+    .contenido_imagen_tallesgeneral img{
+        height: 230px;
+        width: 280px;
+    }
+    .contenido_imagen_tallesmedias img{
+        height: 230px;
+        width: 280px;
+    }
+} 
+/*escritorio*/
+@media(min-width:992px){
+    body{
+        font-family: 'Montserrat', sans-serif;
+        background-color:pink;
+        width: 992px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .encabezado{
+        background-color: peachpuff;
+        background-image: url(./img/aychihuahualogo2.JPG);
+        /*background-size: auto;*/
+        padding: 15px;
+        /*height: 105vh;*/
+    }
+    .encabezado_menu{
+        text-align: center;
+        list-style: none;
+    }
+    .encabezado_menu li{
+        display: inline-block;
+        font-weight: 700;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .contenido_sugerencias{
+        background: linear-gradient(#ea8e8e, #a03737);
+        width: 40%;
+        padding: 4rem;
+       /* height: 255vh;*/
+    }
+}
